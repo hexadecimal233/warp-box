@@ -14,7 +14,8 @@
     "cf-typegen": "wrangler types ./src/worker-configuration.d.ts",
     "format": "biome format --write .",
     "lint": "biome lint --write .",
-    "biome-check": "biome check --write ."
+    "biome-check": "biome check --write .",
+    "test": "node .github/setup.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.11",
